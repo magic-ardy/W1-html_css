@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+        *{
+            background-color : #3CB371;
+        }
+        div input{
+            background-color:#FFFAF0;
+        }
+        .title{
+            color : #FF4500;
+        }
+        .main_image{
+            display: flex;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class = "title"><strong>Kasyara Online Shop</strong></h1>
+        <h3 class = "title">Toko Sayuran Organik Fresh</h3>
+    </div>
+    <div>
+        <p> Selamat datang di <strong>Toko Sayuran Organik Kasyara Online</strong>. Kami menyediakan 33 macam sayuran organik fresh yang baru dipanen kurang dari 24 jam!<br>
+        Dengan moto <span style="color:red;"><em>"pesan, panen, antar"</em></span>, Anda cukup memesan sayuran yang Anda inginkan dari web kami maksimum 2 x 24 jam sebelum sayuran diantar.<br>
+        Setelah itu, sayuran akan kami panen dan segera tiba di depan pintu Anda ! Sayuran diantar tiap hari Senin, Rabu, dan Jumat. Pemesanan minimum hanya Rp150.000,-.<br>
+        Silakan daftar untuk memulai pemesanan.</p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/1_bali_jatiluwih_rice_terrace_panorama.jpg"
+    width="350"
+    height="250"
+    class = "main_image"/>
+<form>
+    <div>
+        <p> Silakan Daftar</p>
+        <label for="username">Nama pengguna </label><br>
+        <input type="text" placeholder="nama pengguna" name="username" id="username">
+    </div>
+    <div>
+        <label for="email">E-mail</label><br>
+        <input type="email" placeholder="e-mail" name="email" id="email">
+    </div>
+    <div>
+        <label for="password">Kata sandi</label><br>
+        <input type="password" placeholder="Kata sandi" name="password" id="password">
+    </div>
+    <div>
+        <label for="add">Alamat lengkap </label><br>
+        <input type="text" placeholder="alamat" name="Address" id="Address">
+    </div>
+    <div>
+        <label for="phone2numeric">Nomor telepon & Whatsapp</label><br>
+        <input type="text" placeholder="nomor telepon" name="phone2numeric" id="phone2numeric">
+    </div>
+
+    <div>
+        <label for="file">Unggah KTP</label><br>
+        <input type="file" placeholder="file KTP" name="file" id="file">
+    </div>
+    <div>
+        <input type="submit" valuetype="Signup" value="daftar">
+    </div>
+</body>
+</html>    
